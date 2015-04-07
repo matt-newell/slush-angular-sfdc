@@ -7,6 +7,7 @@ var gulp = require('gulp'),
 gulp.task('default', function (done) {
   inquirer.prompt([
     {type: 'input', name: 'name', message: 'Give your app a name', default: gulp.args.join(' ')}, // Get app name from arguments by default
+    {type: 'input', name: 'staticres', message: 'Give staticresource a name'},
     {type: 'confirm', name: 'moveon', message: 'Continue?'}
   ],
   function (answers) {
