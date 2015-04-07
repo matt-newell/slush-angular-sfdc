@@ -37,11 +37,11 @@
     "chalk": "^0.4.0"
   },
   "devDependencies": {
-    "mocha": "^1.17.0",
-    "should": "^3.1.0",
-    "jshint": "^2.4.1",
+    "gulp": "^3.6.2",
     "gulp-jshint": "^1.4.0",
-    "gulp": "~3.6.2"
+    "jshint": "^2.4.1",
+    "mocha": "^1.21.5",
+    "should": "^3.3.2"
   },
   "scripts": {
     "test": "node gulpfile.js && NODE_ENV=test mocha --reporter spec"
