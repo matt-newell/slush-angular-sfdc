@@ -48,7 +48,6 @@
   },
   "scripts": {
     "test": "echo \"No tests\""
-    // "test": "node gulpfile.js && NODE_ENV=test mocha --reporter spec"
   },
   "engineStrict": true,
   "engines": {
